@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: arial;
+    text-align: center;
+    font-size: 1.1rem;
+    line-break: 22px;
+   
+  
+}
+
+header > main
+{
+    color:#ffffff;
+    height: 60vh;
+    
+      
+}
+
+#header-overlay
+{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 90%;
+    background-Image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    Background-size: cover;
+    background-position: center center;  
+    opacity: 0.9;
+}
+
+
+
+header a
+{
+    border: solid #555555;
+    background-color: #333333;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 16px 32px;
+
+}
+
+button:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 42px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 5px;
+	transition: all 2s ease;
+} 
+
+#h1padding
+{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+a
+{
+    text-decoration: none;
+}
+
+p
+{
+font-size: 1.0rem;
+justify-content: stretch;
+
+}
+
+#software-development
+{
+    background-color: #eaeaea;
+    padding:50px 0 100px 50px;
+    
+}
+
+#padding-bottom
+{
+    padding-bottom: 20px;
+}
+
+#software-padding
+{
+    padding: 0 120px 0 120px
+}
+#resume-details
+{
+    background-color: #333;
+
+}
+
+
+#resume-grid
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    width: 80%;
+    grid-column-gap: 5px;
+    margin: 0 auto;
+   
+}
+
+#resume-grid > div
+{
+    background-color: #ffffff;
+}
+
+
+
+.resumepadding
+{
+    padding: 25px 0px;
+}
+
+img
+{
+    height: 200px;
+    width: 100%
+}
+
+
+
+
+.box-background
+{
+    background-color: #ffffff;
+    color:#000000;
+  
+}
+
+#employer-contact
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   background-color: #ffffff;
+    
+}
+
+#employer
+{
+    background-color: #2690d4;
+    color: #ffffff;
+    
+    
+}
+
+#employer-contact > div
+{
+    padding: 25px 0px;
+    
+}
+
+
+
+
+footer
+{
+    color: #ffffff;
+    text-align: left;
+    background-color: #000000;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 70px;
+    
+    
+}
+
+#icons
+{
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 0px 50px;
+    
+}
+
